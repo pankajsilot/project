@@ -1,1 +1,44 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-card">
+        <div class="title">
+            <h1>Weather App</h1>
+            <p>Check the weather by searching for a <span>city name</span></p>
+        </div>
+        <div class="search-area">
+            <input id="impTXT" type="text" placeholder="Enter city name" spellcheck="false">
+            <button type="submit"><img src="img/search.png" alt="Search"></button>
+        </div>
+        <div class="weather-display">
+            <img src="" class="weather-icon" alt="Weather Icon">
+            <h1 class="temperature"></h1>
+            <h2 class="city"></h2>
+            <div class="details-info">
+                <div class="column">
+                    <img src="img/humidity.png" alt="Humidity">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="img/wind.png" alt="Wind">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
